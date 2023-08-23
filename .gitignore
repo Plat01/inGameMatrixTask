@@ -1,0 +1,59 @@
+# Build output
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+cmake-build-debug/
+
+# Compile output
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.dylib # Mac OS X
+
+# Executable
+a.out
+
+# Tooling
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# IDEs and editors
+.ccls-cache/
+.cquery_cached_index/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store # Mac OS X
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# CTest output
+Testing/
+CTestTestfile.cmake
+_test_results/
+
+# CPack source packages
+*.tar.gz
+*.tar.bz2
+*.tar.Z
+*.zip
+*.sh
+*.cmake
+
+# External
+# Sometimes, you might want to ignore external/ or libs/ directories, if you have them.
+# external/
+# libs/
+
+# For CLion IDE
+.idea/
+
+# For Qt Creator
+*.autosave
