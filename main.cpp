@@ -9,7 +9,7 @@ void dsf(int **arr, int x, int y, int x_size, int y_size, const std::vector<std:
 std::vector<std::pair<int, int>> makeCardinalPoints();
 
 int main() {
-    std::ifstream inputFile("../tests/test1.txt");
+    std::ifstream inputFile("../tests/test3.txt");
 
     if (!inputFile.is_open()) {
         std::cerr << "Could not open the file." << std::endl;
@@ -39,6 +39,8 @@ int main() {
     }
 
     printArr(arr, x_size, y_size);
+
+    std::cout << abs(ctr);
 
 
     // Restore the original cin buffer
