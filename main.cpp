@@ -71,7 +71,7 @@ public:
 };
 
 int main() {
-    std::ifstream inputFile("../tests/test3.txt");
+    std::ifstream inputFile("../tests/test1000_6.txt");
     if (!inputFile.is_open()) {
         std::cerr << "Could not open the file." << std::endl;
         return 1;

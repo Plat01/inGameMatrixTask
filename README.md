@@ -9,3 +9,4 @@
 ## Tests
 
 There is some tests in test folder. Replace the file name (`std::ifstream inputFile("../tests/test3.txt");`) with the one you need to call another test.
+**All tests passed successfully.**
